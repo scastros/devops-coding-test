@@ -1,7 +1,7 @@
 # DevOps challenge
 
 With this challenge we want to evaluate your skills as a DevOps expert. The solution should:
-- Meet every requirement detailed in the Principal objectives.
+- Meet every requirement detailed in the Main objectives.
 - Demonstrate your ability to produce high quality and well documented code.
 
 To achieve these goals, you can use all the tools and libraries you want. Finally, there is one optional goal which, if achieved, will be positively considered.
@@ -15,7 +15,7 @@ To implement a solution, you should be familiar with these tools:
 3. [Docker](https://docs.docker.com/engine/install/)
 ## Objectives
 The main goal is to create and run a Docker container with this Spring Boot application. You only have to implement the code in the three files that are in the scripts folder.
-### Principal
+### Main
 1. Implement the **build.sh** script, this script should compile the Spring Boot application and create the Docker image.
 2. Implement the **Dockerfile**, add the necessary commands to assemble the image. This image should include the previously compiled code, and it should also execute it.
 3. Implement the **run.sh** script, this script should run the Docker container.
