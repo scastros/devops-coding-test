@@ -19,6 +19,8 @@ The main goal is to create and run a Docker container with this Spring Boot appl
 1. Implement the **build.sh** script, this script should compile the Spring Boot application and create the Docker image.
 2. Implement the **Dockerfile**, add the necessary commands to assemble the image. This image should include the previously compiled code, and it should also execute it.
 3. Implement the **run.sh** script, this script should run the Docker container.
+4. Create a pipeline that loads the previously created Docker image into a registry. Explain briefly which CI/CD tool and registry were chosen and why.
 ### Optional
-1. Create a new script called "deploy.sh" which uploads the previously created Docker image to an AWS Elastic Container Registry using AWS CLI.
+1. Explain how to deploy previously created Docker image into AWS and which tools and services you will use for. _Note: there aren't a bad or good answer, but you need argument it_
+
 **IMPORTANT:** You don't need a real AWS account, we are only going to evaluate the usage of the AWS command line interface.
